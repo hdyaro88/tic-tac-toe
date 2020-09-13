@@ -1,9 +1,26 @@
+html {
+	height: 100%;
+	width: 100%;
+}
 body {
-	background: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-022.jpg);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: url(https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
 	overflow: hidden;
+}
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
 }
 
